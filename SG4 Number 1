@@ -1,0 +1,60 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNhycwxK1EO4W24ztHEDlQy",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/rhyannnnn/SG-4/blob/main/SG4%20Number%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 9,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hBlhkoRa1INM",
+        "outputId": "c53d7b51-13b0-4e3a-e458-d6d4174c0597"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "input a number: 8\n",
+            "The number 4.0 is even\n"
+          ]
+        }
+      ],
+      "source": [
+        "#Number 1\n",
+        "number = int(input(\"input a number: \"))\n",
+        "calc_number = (number / 2)\n",
+        "if calc_number % 2 == 0:\n",
+        "  print(f\"The number {calc_number} is even\")\n",
+        "else:\n",
+        "  print(f\"The number {calc_number} is odd\")"
+      ]
+    }
+  ]
+}
